@@ -1,0 +1,149 @@
+.main-header {
+  font-size: 3rem;
+  padding: 20px;
+}
+
+.flex-columns {
+  display: flex;
+  height: 100%;
+  border-bottom: var(--primary-color) 2px solid;
+  margin: 0 10px;
+}
+
+
+.column-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 70px 75px 0px 60px;
+}
+
+.column-1 h4 {
+  border-bottom: lightgray 1px solid;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.column-1 h2 {
+  font-size: 1.8rem;
+  padding-bottom: 10px;
+}
+
+.column-2 {
+  transform: scale(0.7);
+  height: 100%;
+  width: 100%;
+}
+
+/* Button */
+
+.btn {
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  background: var(--primary-color);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  transition: opacity 1s ease-in-out;
+  text-decoration: none;
+}
+
+.btn:hover{
+  opacity: 0.35;
+}
+
+/* Footer */
+
+.footer {
+  background: var(--overlay-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+}
+
+.footer .social a {
+  color: #fff;
+  padding: 10px 10px;
+}
+
+.footer .social {
+  margin-bottom: 20px;
+}
+
+.posts :last-child {
+  border-bottom: none;
+}
+
+/* Services */
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.flex-row-col {
+  padding: 30px;
+}
+
+.flex-row-col h2 {
+  font-size: 1.2rem;
+}
+
+.flex-row-col p {
+  font-size: 0.8rem;
+}
+
+.flex-row-main {
+  margin: 0 40px;
+  margin-bottom: 50px;
+}
+
+.border-top {
+  border-top: var(--primary-color) 2px solid;
+}
+
+.column-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 130vh;
+  font-size: 1.8rem;
+  opacity: 0.5;
+}
+
+.border-bot {
+  border-bottom: grey 2px solid;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.block {
+  display: inline-block;
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
